@@ -1,0 +1,63 @@
+/*
+
+    Rosa: #C6426E
+    Morado: #642B73
+    Negro: #999
+    Gris: #f5f5f5
+
+*/
+
+html{
+    font-family: 'Montserrat', serif;
+}
+
+a{
+    text-decoration: none;
+    color: #d500f9;
+}
+
+.titulo{
+    text-transform: uppercase; /* uppercase es para que todo el texto este en mayuscula, capitalize es para que solo la primera letra de los textos este en mayuscula, lowecase es para que todo este en minuscula*/
+}
+
+.parrafo{
+    line-height: 1.8em; /* dar espacios entre lineas en parrafos  */
+    font-weight: 200;
+}
+
+.contenedor{
+    background: #642B73; /* Respaldo */
+    background: -webkit-linear-gradient(to right, #C6426E, #642B73);
+    background: linear-gradient(to right, #C6426E, #642B73);
+    height: 100vh; /* 100vh ocupa todo el alto de la pantalla */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenido{
+    max-width: 960px;
+    max-height: 500px;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+
+.table{
+    width: 100%;
+    border-spacing: 0;
+}
+
+.table td, .table th{
+    padding: 1em;
+    text-align: left;
+}
+
+.table tr:nth-child(even){
+    background-color: #f3e5f5;
+}
+
+.fa-star{
+    color: yellow;
+}
